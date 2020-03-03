@@ -1,0 +1,54 @@
+{
+  "title": "java handbook",
+  "author": "luzhenqian",
+  "description": "java handbook",
+  "language": "zh-hans",
+  "plugins": [
+    "back-to-top-button",
+    "chapter-fold",
+    "code",
+    "todo",
+    "insert-logo",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "pageview-count",
+    "hide-element",
+    "custom-favicon"
+  ],
+  "pluginsConfig": {
+    "insert-logo": {
+      "url": "http://localhost:4000/assets/images/code_java.svg",
+      "style": "width: 15rem;"
+    },
+    "sharing": {
+      "google": true,
+      "facebook": true,
+      "twitter": true,
+      "qq": true,
+      "weibo": true,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "instapaper",
+        "linkedin",
+        "pocket",
+        "stumbleupon",
+        "qq",
+        "qzone"
+      ]
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "favicon": "assets/images/favicon.ico"
+  },
+  "variables": {
+    "host": "mybook.com"
+  }
+}
