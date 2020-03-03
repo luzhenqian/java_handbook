@@ -1,0 +1,704 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>集成开发环境 · java handbook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="luzhenqian">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="hello_world.html" />
+    
+    
+    <link rel="prev" href="environment.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Java 手札
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    语言篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    java 语言基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="history.html">
+            
+                <a href="history.html">
+            
+                    
+                    历史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="environment.html">
+            
+                <a href="environment.html">
+            
+                    
+                    运行环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.4" data-path="idea.html">
+            
+                <a href="idea.html">
+            
+                    
+                    集成开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="hello_world.html">
+            
+                <a href="hello_world.html">
+            
+                    
+                    HelloWorld 程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../exception/hello_world.md">
+            
+                <span>
+            
+                    
+                    java 异常
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../utils/hello_world.md">
+            
+                <span>
+            
+                    
+                    java 工具类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../oop/hello_world.md">
+            
+                <span>
+            
+                    
+                    java 面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../thread/hello_world.md">
+            
+                <span>
+            
+                    
+                    java 线程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../tools/">
+            
+                <a href="../../tools/">
+            
+                    
+                    工具篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../tools/idea/">
+            
+                <a href="../../tools/idea/">
+            
+                    
+                    开发工具：Intellij IDEA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../tools/maven/">
+            
+                <a href="../../tools/maven/">
+            
+                    
+                    包管理工具：Maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../framework/">
+            
+                <a href="../../framework/">
+            
+                    
+                    框架篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../framework/spring/">
+            
+                <a href="../../framework/spring/">
+            
+                    
+                    Spring 三部曲：Spring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../framework/spring_boot/">
+            
+                <a href="../../framework/spring_boot/">
+            
+                    
+                    Spring 三部曲：SpringBoot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../framework/spring_cloud/">
+            
+                <a href="../../framework/spring_cloud/">
+            
+                    
+                    Spring 三部曲：SpringCloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../framework/netty/">
+            
+                <a href="../../framework/netty/">
+            
+                    
+                    网络编程框架：Netty
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../storage/">
+            
+                <a href="../../storage/">
+            
+                    
+                    存储篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../storage/mysql/">
+            
+                <a href="../../storage/mysql/">
+            
+                    
+                    关系型数据库：Mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../storage/mongodb/">
+            
+                <a href="../../storage/mongodb/">
+            
+                    
+                    非关系型数据库：Mongodb
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../storage/redis/">
+            
+                <a href="../../storage/redis/">
+            
+                    
+                    缓存数据库：Redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../middleware/">
+            
+                <a href="../../middleware/">
+            
+                    
+                    中间件篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../middleware/tomcat/">
+            
+                <a href="../../middleware/tomcat/">
+            
+                    
+                    容器中间件：Tomcat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../middleware/kafka/">
+            
+                <a href="../../middleware/kafka/">
+            
+                    
+                    消息中间件：kafka
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../virtual_machine/">
+            
+                <a href="../../virtual_machine/">
+            
+                    
+                    虚拟机篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../virtual_machine/jvm/">
+            
+                <a href="../../virtual_machine/jvm/">
+            
+                    
+                    JVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >集成开发环境</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="java-&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;">Java &#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;</h2>
+<h3 id="&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x4ECB;&#x7ECD;">&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x4ECB;&#x7ECD;</h3>
+<p>&#x96C6;&#x6210;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF08;IDE Integrated Development Environment&#xFF09;&#xFF0C;&#x662F;&#x6307;&#x4E00;&#x4E2A;&#x529F;&#x80FD;&#x5F3A;&#x5927;&#xFF0C;&#x6DB5;&#x76D6;&#x5F00;&#x53D1;&#x5168;&#x6D41;&#x7A0B;&#x7684;&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#xFF0C;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x4E00;&#x4E2A;&#x6216;&#x4E00;&#x5957;&#x8F6F;&#x4EF6;&#x3002;</p>
+<p>Java &#x7684; IDE &#x4E3B;&#x8981;&#x6709;&#x4E24;&#x4E2A;&#xFF0C;&#x4E00;&#x4E2A;&#x662F; Intellij IDEA&#xFF0C;&#x4E00;&#x4E2A;&#x662F; Eclipse&#x3002;&#x4E24;&#x4E2A;&#x5DE5;&#x5177;&#x672C;&#x8D28;&#x4E0A;&#x6CA1;&#x6709;&#x592A;&#x5927;&#x7684;&#x5DEE;&#x522B;&#xFF0C;&#x4E0B;&#x9762;&#x7B80;&#x5355;&#x5217;&#x4E3E;&#x51E0;&#x4E2A;&#x4F5C;&#x8005;&#x7684;&#x89C2;&#x70B9;&#xFF1A;</p>
+<ul>
+<li>Intellij IDEA &#x5728;&#x7528;&#x6237;&#x4F53;&#x9A8C;&#x4E0A;&#x66F4;&#x80DC;&#x4E00;&#x7B79;&#x3002;</li>
+<li>Intellij IDEA &#x662F;&#x4E00;&#x4E2A;&#x6536;&#x8D39;&#x7684;&#x8F6F;&#x4EF6;&#xFF0C;Eclipse &#x5B8C;&#x5168;&#x514D;&#x8D39;&#x3002;</li>
+<li>Eclipse &#x5728;&#x6027;&#x80FD;&#x4E0A;&#x66F4;&#x597D;&#x4E00;&#x4E9B;&#x3002;</li>
+</ul>
+<p>&#x5176;&#x4ED6;&#x5185;&#x5BB9;&#x4E0D;&#x8FC7;&#x591A;&#x5BF9;&#x6BD4;&#xFF0C;&#x8FD9;&#x65B9;&#x9762;&#x7684;&#x66F4;&#x591A;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x9605;&#x8BFB;&#x672C;&#x624B;&#x672D;&#x7684;&#x3010;&#x5DE5;&#x5177;&#x7BC7;&#x3011;&#x3002;</p>
+<p>&#x4ECE;&#x5B66;&#x4E60; Java &#x8BED;&#x8A00;&#x7684;&#x89D2;&#x5EA6;&#x6765;&#x770B;&#xFF0C;&#x4F5C;&#x8005;&#x66F4;&#x63A8;&#x8350;&#x4F7F;&#x7528; VS Code &#x4F5C;&#x4E3A; Java &#x7684; IDEA&#xFF0C;&#x7406;&#x7531;&#x662F; VS Code &#x5728;&#x4FDD;&#x8BC1;&#x529F;&#x80FD;&#x7684;&#x540C;&#x65F6;&#x66F4;&#x52A0;&#x8F7B;&#x91CF;&#x5316;&#x3002;</p>
+<h3 id="&#x5B89;&#x88C5;-vscode">&#x5B89;&#x88C5; VSCode</h3>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x5728; <a href="https://code.visualstudio.com/" target="_blank">VSCode &#x5B98;&#x7F51;</a> &#x4E0B;&#x8F7D;&#x4E0E;&#x60A8;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5BF9;&#x5E94;&#x7684;&#x5B89;&#x88C5;&#x5305;&#x3002;&#x7531;&#x4E8E;&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;&#x975E;&#x5E38;&#x7B80;&#x5355;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x505A;&#x8D58;&#x8FF0;&#x3002;</p>
+<h3 id="&#x5B89;&#x88C5;-vscode-&#x7684;-java-&#x5F00;&#x53D1;&#x6269;&#x5C55;&#x5305;">&#x5B89;&#x88C5; VSCode &#x7684; Java &#x5F00;&#x53D1;&#x6269;&#x5C55;&#x5305;</h3>
+<p>VSCode &#x62E5;&#x6709;&#x975E;&#x5E38;&#x591A;&#x7684;&#x6269;&#x5C55;&#x8F6F;&#x4EF6;&#xFF0C;&#x5BF9;&#x5F00;&#x53D1; Java &#x800C;&#x8A00;&#xFF0C;&#x6700;&#x57FA;&#x672C;&#x7684;&#x6709;&#x4E24;&#x4E2A;&#x3002;</p>
+<ul>
+<li><p>Language Support for Java by Red Hat
+&#x8BE5;&#x63D2;&#x4EF6;&#x57FA;&#x4E8E; Eclipse&#x2122;JDT Language Server &#x5BF9; Java &#x63D0;&#x4F9B;&#x652F;&#x6301;&#x3002;&#x8BA9; VSCode &#x5B9E;&#x73B0;&#x7C7B;&#x4F3C;&#x4E8E; eclipse &#x7684;&#x5404;&#x79CD;&#x529F;&#x80FD;&#x3002;</p>
+</li>
+<li><p>Java Test Runner
+&#x8BE5;&#x63D2;&#x4EF6;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x548C;&#x8C03;&#x8BD5; Java &#x7A0B;&#x5E8F;&#x3002;</p>
+</li>
+</ul>
+<p>&#x5728; VSCode &#x5DE6;&#x4FA7;&#x529F;&#x80FD;&#x5217;&#x8868;&#x56FE;&#x6807;&#x4E2D;&#x9009;&#x62E9;&#x6269;&#x5C55;&#x5E94;&#x7528;&#x5546;&#x5E97;&#x7684;&#x56FE;&#x6807;&#xFF0C;&#x5728;&#x641C;&#x7D22;&#x6846;&#x8F93;&#x5165; Java &#x6216;&#x8005; Java language &#x5173;&#x952E;&#x5B57;&#x8FDB;&#x884C;&#x641C;&#x7D22;&#x3002;&#x4E0A;&#x9762;&#x63D0;&#x5230;&#x7684;&#x4E24;&#x4E2A;&#x6269;&#x5C55;&#x5305;&#x90FD;&#x5728;&#x6392;&#x540D;&#x8F83;&#x524D;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x60A8;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B8C;&#x6574;&#x7684;&#x6269;&#x5C55;&#x5305;&#x540D;&#x8FDB;&#x884C;&#x641C;&#x7D22;&#x3002;</p>
+<p>&#x5176;&#x5B83;&#x5F88;&#x591A;&#x6269;&#x5C55;&#x5305;&#x540C;&#x6837;&#x975E;&#x5E38;&#x6709;&#x7528;&#xFF0C;&#x4F46;&#x76EE;&#x524D;&#x6682;&#x65F6;&#x7528;&#x4E0D;&#x5230;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="environment.html" class="navigation navigation-prev " aria-label="Previous page: 运行环境">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="hello_world.html" class="navigation navigation-next " aria-label="Next page: HelloWorld 程序">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"集成开发环境","level":"1.2.1.4","depth":3,"next":{"title":"HelloWorld 程序","level":"1.2.1.5","depth":3,"path":"java_language/basics/hello_world.md","ref":"java_language/basics/hello_world.md","articles":[]},"previous":{"title":"运行环境","level":"1.2.1.3","depth":3,"path":"java_language/basics/environment.md","ref":"java_language/basics/environment.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","code","todo","insert-logo","-lunr","-search","search-pro","splitter","-sharing","sharing-plus","pageview-count","hide-element","custom-favicon"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"todo":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"assets/images/favicon.ico","back-to-top-button":{},"pageview-count":{},"custom-favicon":{},"sharing":{"google":true,"facebook":true,"twitter":true,"qq":true,"weibo":true,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon","qq","qzone"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"width: 15rem;","url":"http://localhost:4000/assets/images/code_java.svg"}},"theme":"default","author":"luzhenqian","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"host":"mybook.com"},"title":"java handbook","language":"zh-hans","gitbook":"*","description":"java handbook"},"file":{"path":"java_language/basics/idea.md","mtime":"2020-03-03T13:41:48.998Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-03T14:17:47.757Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
